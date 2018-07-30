@@ -1,0 +1,436 @@
+.alert{
+    color: red;
+    background-color: cyan;
+    margin-bottom: 0px;
+}
+.images{
+    width: 50%;
+    height: 50%;
+}
+h1{
+    font-size: 50px;
+}
+.btn-outline-success{
+    color: cyan;
+    border-color: cyan;
+}
+.nav-link{
+    text-decoration: underline;
+}
+.btn-outline-success .my-2 .my-sm-0{
+    color: cyan;
+    border-color: cyan;
+}
+.btn-primary{
+    background-color: cyan;
+    color: black;
+    border-color: cyan;
+}
+
+.jumbo{
+    background-color: white;
+}
+.card{
+    border: none;
+}
+.li{
+    color: cyan;
+}
+.topnav{
+    color: cyan;
+}
+.nav-link{
+    color: cyan;
+}
+* {
+    box-sizing: border-box;
+}
+.navbar-dark .navbar-brand {
+    color: cyan;
+} 
+
+/* Button Overrides */
+.btn {
+    background-color: cyan;
+    color: white;
+    position: relative;
+    border: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+  
+  .btn:hover {
+    box-shadow: 0 0 1px 1px #2c3531;
+    background-color: cyan;
+    color: white;
+  }
+  
+  .btn:active {
+    box-shadow: inset 0 0 1px 1px #2c3531;
+    background-color: cyan;
+    color: white;
+  }
+  
+ 
+.shopping-cart {
+    width: 750px;
+    height: 423px;
+    margin: 80px auto;
+    background: #FFFFFF;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+/* Cart & Badge */
+.cart {
+    position: relative;
+  }
+  
+.cart .badge {
+    position: absolute;
+    top: -10px;
+    right: -13px;
+    background-color: #7ac9d3;
+    border-radius: 50%;
+    display: none;
+}
+.title {
+    height: 60px;
+    border-bottom: 1px solid #E1E8EE;
+    padding: 20px 30px;
+    color: #5E6977;
+    font-size: 18px;
+    font-weight: 400;
+}  
+.item {
+    padding: 20px 30px;
+    height: 120px;
+    display: flex;
+}
+.item:nth-child(3) {
+    border-top:  1px solid #E1E8EE;
+    border-bottom:  1px solid #E1E8EE;
+}
+.shoppingcartbuttons {
+    position: relative;
+    padding-top: 30px;
+    margin-right: 60px;
+}
+.delete-btns, .like-btns {
+    display: inline-block;
+    Cursor: pointer;
+}
+.delete-btns {
+    width: 18px;
+    height: 17px;
+    background: url('delete-icn.svg') no-repeat center;
+}
+   
+.like-btns {
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    background: url('twitter-heart.png');
+    width: 60px;
+    height: 60px;
+    background-size: 2900%;
+    background-repeat: no-repeat;
+}
+.image {
+    margin-right: 50px;
+}
+
+.description {
+    padding-top: 10px;
+    margin-right: 60px;
+    width: 115px;
+}
+   
+.description span {
+    display: block;
+    font-size: 14px;
+    color: #43484D;
+    font-weight: 400;
+}
+   
+.description span:first-child {
+    margin-bottom: 5px;
+}
+.description span:last-child {
+    font-weight: 300;
+    margin-top: 8px;
+    color: #86939E;
+} 
+.quantity {
+    padding-top: 20px;
+    margin-right: 60px;
+}
+.quantity input {
+    -webkit-appearance: none;
+    border: none;
+    text-align: center;
+    width: 32px;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+buttons[class*=btns] {
+    width: 30px;
+    height: 30px;
+    background-color: #E1E8EE;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.minus-btns img {
+    margin-bottom: 3px;
+}
+.plus-btns img {
+    margin-top: 2px;
+}
+   
+button:focus, input:focus {
+    outline: 0px;
+}
+.total-price {
+    width: 83px;
+    padding-top: 27px;
+    text-align: center;
+    font-size: 16px;
+    color: #43484D;
+    font-weight: 300;
+}
+@media (max-width: 800px) {
+    .shopping-cart {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+    .item {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .image img {
+        width: 50%;
+    }
+    .image, .quantity, .description {
+        width: 100%;
+        text-align: center;
+        margin: 6px 0;
+    }
+    .buttons {
+        margin-right: 20px;
+    } 
+    .is-active {
+        animation-name: animate;
+        animation-duration: .8s;
+        animation-iteration-count: 1;
+        animation-timing-function: steps(28);
+        animation-fill-mode: forwards;
+    }
+       
+    @keyframes animate {
+        0%   { background-position: left;  }
+        50%  { background-position: right; }
+        100% { background-position: right; }
+    }
+    .shoppingcartimg {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  }
+  footer {
+    background-color: cyan;
+    color: white;
+    height: 100px;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .container {
+    max-width: 80%;
+  }
+  /* Chat Button for popover */
+.chat {
+    position: fixed;
+    height: auto;
+    bottom: 20px;
+    right: 2%;
+    z-index: 999;
+    white-space: normal;
+    background-color: white;
+    color: cyan;
+    border: 2px solid cyan;
+  }
+  
+  .chat:hover {
+    background-color: white;
+    color: cyan;
+  }
+  
+  .closed-state {
+    background-color: cyan;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .closed-state:hover{
+    background-color: cyan;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  /* Popover */
+  .popover {
+    width: 250px;
+  }
+  
+  .popover-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-control {
+    width: 100%;
+  }
+  
+  #emailAlert,
+  #nameAlert {
+    background-color: cyan;
+    color: white;
+    display: none;
+  }
+  
+  @media (max-width: 992px) {
+    .removed{
+      display: none;
+    }
+  }
+  section {
+    height: 10px;
+    width: 0%;
+  }
+  
+  /* classes adding animation */
+  .red {
+    animation: stretch 5s, red-stripe 5s;
+  }
+  
+  .orange {
+    animation: stretch 5s, orange-stripe 5s;
+  }
+  
+  .yellow {
+    animation: stretch 5s, yellow-stripe 5s;
+  }
+  
+  .green {
+    animation: stretch 5s, green-stripe 5s;
+  }
+  
+  .blue {
+    animation: stretch 5s, blue-stripe 5s;
+  }
+  
+  .indigo {
+    animation: stretch 5s, indigo-stripe 5s;
+  }
+  
+  .violet {
+    animation: stretch 5s, violet-stripe 5s;
+  }
+  
+  /* keyframe rules */
+  @keyframes stretch {
+    100% { width: 100%; }
+  }
+  
+  @keyframes red-stripe {
+    50% {
+      background-color: red;
+    }
+    100% {
+      background-color: red;
+    }
+  }
+  
+  @keyframes orange-stripe {
+    50% {
+      background-color: orange;
+    }
+    100% {
+      background-color: orange;
+    }
+  }
+  
+  @keyframes yellow-stripe {
+    50% {
+      background-color: yellow;
+    }
+    100% {
+      background-color: yellow;
+    }
+  }
+  
+  @keyframes green-stripe {
+    50% {
+      background-color: green;
+    }
+    100% {
+      background-color: green;
+    }
+  }
+  
+  @keyframes blue-stripe {
+    50% {
+      background-color: blue;
+    }
+    100% {
+      background-color: blue;
+    }
+  }
+  
+  @keyframes indigo-stripe {
+    50% {
+      background-color: indigo;
+    }
+    100% {
+      background-color: indigo;
+    }
+  }
+  
+  @keyframes violet-stripe {
+    50% {
+      background-color: violet;
+    }
+    100% {
+      background-color: violet;
+    }
+  }
+  #box {
+    height: 100px;
+    width: 100px;
+    background: #555;
+  }
+  
+  .ball-roll {
+    animation: roll-animation 5s;
+  }
+  
+  @keyframes roll-animation {
+    25% {
+      border-radius: 50%;
+    }
+  
+    75% {
+      border-radius: 50%;
+      transform: translateX(500px);
+    }
+  }
+  
+  
